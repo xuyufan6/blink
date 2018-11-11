@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "f-like": "/components/like/index",
+    "f-episode": "/components/episode/index",
+    "f-essay": "/components/classic/essay/index",
+    "f-movie": "/components/classic/movie/index",
+    "f-music": "/components/classic/music/index",
+    "f-navi": "/components/navi/index"
+  }
+}

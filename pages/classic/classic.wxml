@@ -1,0 +1,11 @@
+<!-- pages/classic/classic.wxml -->
+<view class="container">
+  <view class="header">
+    <f-episode class="episode" index="{{classic.index}}" />
+    <f-like like="{{likeStatus}}" count="{{likeCount}}" class="like" bind:like="onLike"></f-like>
+  </view>
+  <f-essay hidden="{{classic.type != 100}}" img="{{classic.image}}" content="{{classic.content}}" />
+  <f-music src="{{classic.url}}" wx:if="{{classic.type==200}}" img="{{classic.image}}" content="{{classic.content}}" />
+  <f-movie hidden="{{classic.type != 300}}" img="{{classic.image}}" content="{{classic.content}}" />
+  <f-navi class="navi" bind:left="onNext" bind:right="onPrevious" title="{{classic.title}}" first="{{first}}" latest="{{latest}}" />
+</view>
