@@ -1,1 +1,6 @@
-{}
+{
+  "usingComponents": {
+    "f-button": "/components/image-button/index",
+    "f-preview": "/components/preview/index"
+  }
+}

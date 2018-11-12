@@ -12,6 +12,12 @@ class ClassicModel extends Http {
       url: `classic/${index}/${nextOrPrev}`
     });
   }
+
+  getMyFavor() {
+    return this.request({
+      url: `classic/favor`
+    });
+  }
 }
 
 export default new ClassicModel();
